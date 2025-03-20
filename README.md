@@ -26,3 +26,5 @@ https://code.visualstudio.com/docs/devcontainers/containers
 2. Reopen the project in a devcontainer: `<CTRL/CMD+SHIFT+P> -> Dev Containers: Rebuild and Reopen in Container`.
 3. Configure LLM endpoints: https://docs.dagger.io/ai-agents/#2configure-llm-endpoints
 4. Run the agent: `dagger call test-agent`
+
+[Run](https://github.com/user-attachments/assets/d5cdb0d9-48af-4c5a-92e8-dc9a7d843d14)
