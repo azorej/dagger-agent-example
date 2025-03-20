@@ -1,0 +1,14 @@
+{
+  "name": "test-agent",
+  "engineVersion": "v0.17.0-llm.11",
+  "sdk": {
+    "source": "python"
+  },
+  "dependencies": [
+    {
+      "name": "workspace",
+      "source": "test_agent/workspace"
+    }
+  ],
+  "source": "test_agent"
+}
