@@ -18,7 +18,7 @@ RUN echo1 "Hello, world!"
 """
         ws = dag.workspace()
         llm = (
-            dag.llm(model='claude-3-5-sonnet-latest', max_api_calls=100)
+            dag.llm(max_api_calls=100)
             .with_workspace(ws.write_file('Dockerfile', dockerfile))
             .with_prompt("""
 You're a senior developer. You have an access to a workspace.
