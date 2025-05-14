@@ -1,6 +1,6 @@
 {
   "name": "workspace",
-  "engineVersion": "v0.17.0-llm.11",
+  "engineVersion": "v0.18.7",
   "sdk": {
     "source": "python"
   }

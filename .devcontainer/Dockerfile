@@ -6,7 +6,7 @@ USER root
 
 ENV DEBIAN_FRONTEND=noninteractive \
     TZ=Etc/UTC \
-    DAGGER_VERSION=0.17.0-llm.11
+    DAGGER_VERSION=0.18.7
 
 RUN apt-get update -y && apt-get install -y \
     curl \
